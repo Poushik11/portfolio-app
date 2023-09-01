@@ -1,0 +1,155 @@
+.containers {
+  height: 800px;
+  position: relative;
+}
+
+.container__item {
+  margin: 0 auto 40px;
+}
+
+.landing-page-container {
+  width: 100%;
+  min-height: 100%;
+  height: 90rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  color: #09383e;
+}
+
+.content__wrapper {
+  max-width: 1200px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ellipses-container {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 3.5rem;
+}
+
+@media (max-width: 768px) {
+  .landing-page-container {
+    height: 70vh;
+    width: auto;
+  }
+  .containers {
+    height: 400px;
+  }
+  .ellipses-container {
+    width: 20rem;
+    height: 20rem;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .greeting img {
+    max-width: 150%;
+    height: auto;
+    transform: scale(2.5);
+    padding-right: 35px;
+  }
+  .ellipses__orbit {
+    width: 3rem;
+    height: 4rem;
+    border-width: 2px;
+    border-color: #09383e;
+    top: 5rem;
+    right: rem;
+  }
+}
+
+.ellipses-container .greeting {
+  padding-left: 40px;
+  width: 40%;
+  height: 40%;
+  opacity: 0.7;
+}
+
+.ellipses {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  border-style: ridge;
+}
+
+.ellipses__outer--thin {
+  width: 100%;
+  height: 100%;
+  border-width: 1px;
+  border-color: rgba(9, 56, 62, 0.1);
+  animation: ellipsesOrbit 15s ease-in-out infinite;
+}
+
+.ellipses__outer--thin:after {
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.15;
+}
+
+.ellipses__outer--thick {
+  width: 100%;
+  height: 100%;
+  border-color: #09383e transparent;
+  border-width: 3px;
+  transform: rotate(-45deg);
+  animation: ellipsesRotate 15s ease-in-out infinite;
+}
+
+.ellipses__orbit {
+  width: 3rem;
+  height: 4rem;
+  border-width: 2px;
+  border-color: #09383e;
+  top: 5rem;
+  right: 5.65rem;
+}
+
+.ellipses__orbit:before {
+  content: "";
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #09383e;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@keyframes ellipsesRotate {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(-405deg);
+  }
+}
+
+@keyframes ellipsesOrbit {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
