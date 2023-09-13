@@ -1,6 +1,7 @@
 /* * {
   font-size: 62.5%;
 } */
+
 @media all and (max-width: 480px) {
   .Container {
     background: aliceblue;

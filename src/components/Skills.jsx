@@ -69,7 +69,7 @@ function Skills() {
   ];
 
   return (
-    <div>
+    <div className="skills-section">
       <p className="skill-title">Skills:</p>
       <div className="flex">
         {skillsData.map((skill, index) => (
@@ -80,6 +80,16 @@ function Skills() {
             image={skill.image}
           />
         ))}
+        <div className="shadow"></div>
+        <div className="cat">
+          <div className="ear"></div>
+          <div className="eye"></div>
+          <div className="mouth"></div>
+          <div className="nose"></div>
+          <div className="tail"></div>
+          <div className="body"></div>
+          <div className="bubble"></div>
+        </div>
       </div>
     </div>
   );
