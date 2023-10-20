@@ -134,3 +134,35 @@ hr {
 .card_text p:last-child {
   margin: 0;
 }
+button.round:hover {
+  background-color: #65b9e6;
+}
+
+button.round:active {
+  box-shadow: 0 0 2px rgb(165, 243, 243);
+  transform: translateY(1px);
+}
+button.round {
+  background-color: #fafdfe;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 31px;
+  height: 55px;
+  width: 55px;
+  /* box-shadow: 0 2px 4px */
+  border: 1px blue solid;
+}
+button.round {
+  border-radius: 50%;
+}
+.git {
+  width: 45px;
+  height: 48px;
+}
+.btn_round {
+  position: absolute;
+  /* top: 80%; */
+  left: 10px;
+  bottom: 8px;
+}

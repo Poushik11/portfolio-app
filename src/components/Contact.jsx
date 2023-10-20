@@ -2,7 +2,7 @@ import "../styles/contact.css";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <ul className="outer">
         <li className="social">
           <a className="facebook" href="https://github.com/Poushik11">

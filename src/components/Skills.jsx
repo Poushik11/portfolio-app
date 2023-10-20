@@ -80,7 +80,7 @@ function Skills() {
             image={skill.image}
           />
         ))}
-        <div className="shadow"></div>
+        {/* <div className="shadow"></div>
         <div className="cat">
           <div className="ear"></div>
           <div className="eye"></div>
@@ -89,7 +89,7 @@ function Skills() {
           <div className="tail"></div>
           <div className="body"></div>
           <div className="bubble"></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

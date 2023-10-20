@@ -7,6 +7,9 @@ ul {
   width: 10%;
   float: left;
 }
+.contact {
+  cursor: pointer;
+}
 h2,
 h3,
 a {
