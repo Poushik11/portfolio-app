@@ -17,7 +17,7 @@
     "nodemailer": "^6.9.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.16.0",
+    "react-router-dom": "^6.17.0",
     "react-scroll": "^1.8.9",
     "react-useanimations": "^2.10.0"
   },
