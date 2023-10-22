@@ -66,7 +66,7 @@ function Task() {
               Projects
             </Link>
           </li>
-          <li className="contact">
+          <li className="contact1">
             <Link
               activeClass="active"
               to="contact"

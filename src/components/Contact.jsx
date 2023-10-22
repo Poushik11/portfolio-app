@@ -1,4 +1,5 @@
 import "../styles/contact.css";
+import Like from "./Like/";
 
 function Contact() {
   return (
@@ -60,7 +61,10 @@ function Contact() {
           </a>
         </li>
       </ul>
-      <p className="rights">All Rights Reserved By Poushik Yelne</p>
+      <div className="likestate">
+        <Like />
+        <p className="rights">@ Poushik Yelne</p>
+      </div>
     </div>
   );
 }

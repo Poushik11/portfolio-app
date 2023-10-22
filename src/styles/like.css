@@ -1,0 +1,33 @@
+.likebtn {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  width: 100px;
+  height: 42px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 300ms;
+}
+.likestate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.likebtn:hover {
+  background: #ccc;
+}
+.likebtn:focus {
+  background: #000;
+  border: 2px solid #000;
+  color: #fff;
+}
+.likebtn svg {
+  min-width: 22px;
+  max-width: 22px;
+}
