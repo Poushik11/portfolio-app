@@ -65,12 +65,6 @@ function Review() {
             <a href="mailto:poushikyelne750@gmail.com">
               <p className="emailto">poushikyelne750@gmail.com</p>
             </a>
-            <div className="photo-contact">
-              <img
-                src="https://cdn-icons-png.flaticon.com/128/8657/8657231.png"
-                alt=""
-              />
-            </div>
           </div>
         </div>
       </section>

@@ -1,4 +1,3 @@
-// import React from "react";
 import Cards from "./Cards";
 import "../styles/Card.css";
 
@@ -70,7 +69,7 @@ function Skills() {
 
   return (
     <div className="skills-section">
-      <p className="skill-title">Skills:</p>
+      <p className="skill-title">Languages and Frameworks:</p>
       <div className="flex">
         {skillsData.map((skill, index) => (
           <Cards
@@ -80,16 +79,6 @@ function Skills() {
             image={skill.image}
           />
         ))}
-        {/* <div className="shadow"></div>
-        <div className="cat">
-          <div className="ear"></div>
-          <div className="eye"></div>
-          <div className="mouth"></div>
-          <div className="nose"></div>
-          <div className="tail"></div>
-          <div className="body"></div>
-          <div className="bubble"></div>
-        </div> */}
       </div>
     </div>
   );

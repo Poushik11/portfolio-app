@@ -28,7 +28,7 @@ function writeUserData(userId) {
 
   if (user) {
     const username = user.displayName;
-    const comment = "Your comment here"; // Set the comment as needed
+    const comment = "Your comment here";
 
     const userRef = ref(db, "users/" + userId);
 

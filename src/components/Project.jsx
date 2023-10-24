@@ -67,7 +67,8 @@ function Project() {
   ];
   return (
     <div>
-      <p className="Project-title">Some Projects: </p>
+      <p className="trans">Some Projects: </p>
+
       <div className="main" id="project">
         {ProjectsData.map((project, index) => (
           <ProjectC

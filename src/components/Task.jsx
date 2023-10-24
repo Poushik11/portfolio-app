@@ -48,11 +48,20 @@ function Task() {
         </h1>
 
         <ul className="main-nav">
-          <li>
-            <a href="#/home">Home</a>
+          <li className="home--name">
+            <a>Home</a>
           </li>
-          <li>
-            <a href="#">About</a>
+          <li className="about--name">
+            <Link
+              activeClass="active"
+              to="aboutinfo"
+              spy={true}
+              smooth={true}
+              offset={3}
+              duration={500}
+            >
+              About
+            </Link>
           </li>
           <li className="project">
             <Link

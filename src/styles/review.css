@@ -188,8 +188,8 @@ textarea,
   .contact-header {
     margin: 5rem 5rem 3rem 5rem;
   }
-  .contact-into h3 {
-    text-align: center;
+  .contact-into {
+    display: none;
   }
   #co-title {
     font-size: 1rem;
