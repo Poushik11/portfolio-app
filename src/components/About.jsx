@@ -4,7 +4,25 @@ function About() {
   return (
     <div className="aboutinfo">
       <div className="transW">
-        <p className="trans">ABOUT</p>
+        {/* <p className="trans">ABOUT</p> */}
+
+        <div className="aboutsec">
+          <div id="word">
+            Dive into
+            <div id="flip">
+              <div>
+                <div>Exciting Project</div>
+              </div>
+              <div>
+                <div>Our Story</div>
+              </div>
+              <div>
+                <div>The PortFolio</div>
+              </div>
+            </div>
+            and Explore The Story!
+          </div>
+        </div>
       </div>
 
       <section id="about" className="main-section">

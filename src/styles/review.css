@@ -251,3 +251,32 @@ textarea,
     width: 200%;
   }
 }
+.effect5 {
+  &:hover {
+    box-shadow: 0px 0 0 11px #fff, 0px 0 0 10px #27ae60, 0px 0 0 50px #fff inset;
+  }
+
+  &:active {
+    box-shadow: 0px 0 0 11px #27ae60, 0px 0 0 10px #27ae60,
+      0px 0 0 50px #fff inset;
+  }
+}
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#logo5 {
+  height: 50px;
+  width: 50px;
+
+  border-radius: 190px;
+  border: 3px solid #27ae60;
+  background: #1e2320;
+  text-align: center;
+
+  text-decoration: none;
+  color: #27ae60;
+
+  transition: all 0.2s;
+}

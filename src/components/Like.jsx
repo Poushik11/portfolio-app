@@ -8,7 +8,7 @@ function Like() {
   const [likes, setLikes] = useState(-1);
 
   onValue(ref(getDatabase(), "/likes"), (data) => {
-    console.log("TEST IS " + data.val()["totalLikes"]);
+    // console.log("TEST IS " + data.val()["totalLikes"]);
     if (likes > 0) {
       return;
     } else {
