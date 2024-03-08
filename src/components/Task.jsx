@@ -1,5 +1,6 @@
 import "../styles/Task.css";
 import { Link } from "react-scroll";
+import Download from "./Download";
 import { useEffect, useState } from "react";
 
 function Task() {
@@ -46,6 +47,7 @@ function Task() {
             </a>
           </Link>
         </h1>
+        <Download />
 
         <ul className="main-nav">
           <li className="home--name">
