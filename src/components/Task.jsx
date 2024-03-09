@@ -47,9 +47,9 @@ function Task() {
             </a>
           </Link>
         </h1>
-        <Download />
 
         <ul className="main-nav">
+          <Download />
           <li className="home--name">
             <a>Home</a>
           </li>

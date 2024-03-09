@@ -1,5 +1,6 @@
 import "../styles/Info.css";
 import { Link } from "react-scroll";
+
 function About() {
   return (
     <div className="aboutinfo">

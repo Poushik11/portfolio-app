@@ -126,3 +126,8 @@ a {
     justify-content: space-between;
   }
 }
+.resume {
+  padding: 2px;
+  width: 50px;
+  margin-left: 20px;
+}
