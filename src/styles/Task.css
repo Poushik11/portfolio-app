@@ -7,6 +7,16 @@ ul {
   width: 10%;
   float: left;
 }
+.about--name,
+.home--name {
+  cursor: pointer;
+}
+.contact1 {
+  cursor: pointer;
+}
+.project {
+  cursor: pointer;
+}
 h2,
 h3,
 a {
@@ -106,10 +116,18 @@ a {
       max-width: 1150px;
     }
   }
+  .task {
+    padding-bottom: 0;
+  }
 }
 @media (min-width: 1025px) {
   .header {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+.resume {
+  padding: 2px;
+  width: 50px;
+  margin-left: 20px;
 }

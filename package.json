@@ -10,8 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-email/render": "^0.0.13",
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "emailjs-com": "^3.2.0",
+    "express": "^4.19.2",
+    "firebase": "^10.5.0",
+    "install": "^0.13.0",
+    "node": "^20.6.0",
+    "nodemailer": "^6.9.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "react-scroll": "^1.8.9",
     "react-useanimations": "^2.10.0"
   },
   "devDependencies": {
@@ -24,5 +36,9 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "sass": "^1.66.1",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
 }

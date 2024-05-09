@@ -1,5 +1,36 @@
 import "../styles/review.css";
+import { useState } from "react";
+import axios from "axios";
+
 function Review() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+    axios
+      .post("https://portfolio-backend-kigm.onrender.com/api/form", formData)
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
   return (
     <div>
       <section className="contact">
@@ -11,7 +42,7 @@ function Review() {
         <div className="contact-content">
           <div className="contact-form">
             <h3 id="form-title">Send me a message</h3>
-            <form action="mailto:poushikyelne750@gmail.com" method="post">
+            <form onSubmit={handleSubmit} method="post">
               <fieldset>
                 <div className="form-field">
                   <input
@@ -19,6 +50,8 @@ function Review() {
                     type="text"
                     id="name"
                     placeholder="Your Name"
+                    value={formData.name}
+                    onChange={handleChange}
                   ></input>
                 </div>
                 <div className="form-field">
@@ -27,14 +60,18 @@ function Review() {
                     type="email"
                     id="email"
                     placeholder="Your Email"
+                    value={formData.email}
+                    onChange={handleChange}
                   ></input>
                 </div>
                 <div className="form-field">
                   <input
-                    name="Subject"
+                    name="subject"
                     type="text"
                     id="subject"
                     placeholder="Subject"
+                    value={formData.subject}
+                    onChange={handleChange}
                   ></input>
                 </div>
                 <div className="form-field">
@@ -43,6 +80,8 @@ function Review() {
                     type="text"
                     id="message"
                     placeholder="Your Message"
+                    value={formData.message}
+                    onChange={handleChange}
                   ></textarea>
                 </div>
               </fieldset>
@@ -51,26 +90,9 @@ function Review() {
           </div>
 
           <div className="contact-info">
-            <h3 className="contact-into-h3">
-              {" "}
-              <span>
-                <img
-                  className="hands-down"
-                  src="https://cdn-icons-png.flaticon.com/128/4151/4151471.png"
-                  alt=""
-                />
-              </span>
-              Email Me At{" "}
-            </h3>
-            <a href="mailto:poushikyelne750@gmail.com">
-              <p className="emailto">poushikyelne750@gmail.com</p>
-            </a>
-            <div className="photo-contact">
-              <img
-                src="https://cdn-icons-png.flaticon.com/128/8657/8657231.png"
-                alt=""
-              />
-            </div>
+            <a id="logo5" href="#" className="effect5"></a>
+            <a id="logo5" href="#" className="effect5"></a>
+            <a id="logo5" href="#" className="effect5"></a>
           </div>
         </div>
       </section>

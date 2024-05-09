@@ -1,6 +1,6 @@
 import "../styles/Project.css";
 // eslint-disable-next-line react/prop-types
-function ProjectC({ name, link, image, info, infor }) {
+function ProjectC({ name, link, git, image, info, infor }) {
   return (
     <div className="cards_item">
       <div className="card-block">
@@ -14,6 +14,15 @@ function ProjectC({ name, link, image, info, infor }) {
               />
             </a>
           </span>
+          <a href={git} className="btn_round" target="blank">
+            <button className="round">
+              <img
+                className="git"
+                src="https://img.icons8.com/?size=160&id=118553&format=png"
+                alt=""
+              />
+            </button>
+          </a>
         </div>
         <div className="card_content">
           <h2 className="card_title">{name}</h2>

@@ -1,0 +1,125 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aliceblue; */
+  padding: 30px;
+}
+.simag {
+  width: 30%;
+}
+.contact {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1002%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(212%2c 225%2c 238%2c 1)'%3e%3c/rect%3e%3cpath d='M508.66 236.4L522.05 236.4L522.05 284.22L508.66 284.22z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M261.79 404.33L278.2 404.33L278.2 459.92L261.79 459.92z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M643.42 193.48a24.41 24.41 0 1 0 24.15 42.43z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M195.77 195.96 a7.17 7.17 0 1 0 14.34 0 a7.17 7.17 0 1 0 -14.34 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M789.4 427.8 a44.89 44.89 0 1 0 89.78 0 a44.89 44.89 0 1 0 -89.78 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M461.94 166.28L494.05 166.28L494.05 198.39L461.94 198.39z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M805.28 291.19L830.83 291.19L830.83 316.74L805.28 316.74z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1324.48 458.32a49.63 49.63 0 1 0-5.51 99.11z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M285.59 112.81L332.44 112.81L332.44 140.97L285.59 140.97z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M351.74 378.32L387.29 378.32L387.29 429.36L351.74 429.36z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M192.2 223.25L208.88 223.25L208.88 239.93L192.2 239.93z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M744.72 522.61 a13.2 13.2 0 1 0 26.4 0 a13.2 13.2 0 1 0 -26.4 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1006.1 538.97 a38.65 38.65 0 1 0 77.3 0 a38.65 38.65 0 1 0 -77.3 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1357.48 84.28L1377.37 84.28L1377.37 99.89L1357.48 99.89z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M598.95 223.34L643.26 223.34L643.26 263.98L598.95 263.98z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M129.9 350.82 a32.76 32.76 0 1 0 65.52 0 a32.76 32.76 0 1 0 -65.52 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M204.02 106.67L239.32 106.67L239.32 141.97L204.02 141.97z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M703.67 105.72L730.5 105.72L730.5 140.39L703.67 140.39z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M998.05 75.99L1028.07 75.99L1028.07 111.73L998.05 111.73z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M571.69 489.44L608.41 489.44L608.41 526.16L571.69 526.16z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M187.41 277.99L232.73 277.99L232.73 323.31L187.41 323.31z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M746.27 353.77 a20.25 20.25 0 1 0 40.5 0 a20.25 20.25 0 1 0 -40.5 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1143.78 543.8a21.48 21.48 0 1 0-31.97-28.7z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1036.26 435.18L1061 435.18L1061 444.26L1036.26 444.26z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M627.27 26.98L658.53 26.98L658.53 46.6L627.27 46.6z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1104.75 117.03 a44.86 44.86 0 1 0 89.72 0 a44.86 44.86 0 1 0 -89.72 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M445.06 142.86L482.35 142.86L482.35 194.7L445.06 194.7z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M844.94 97.76L888.16 97.76L888.16 140.98L844.94 140.98z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M78.04 266.77 a44.82 44.82 0 1 0 89.64 0 a44.82 44.82 0 1 0 -89.64 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M940.83 267.72L986.88 267.72L986.88 299.11L940.83 299.11z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M964.43 229.28a11.28 11.28 0 1 0-16.64 15.23z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M240.44 5.03L273.29 5.03L273.29 37.88L240.44 37.88z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M843.08 62.56L868.81 62.56L868.81 74.02L843.08 74.02z' stroke='%23e73635'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1002'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.facebook:hover span {
+  background: #3b5998;
+}
+
+.twitter:hover span {
+  background: #1da1f2;
+}
+
+.instagram:hover span {
+  background: #c32aa3;
+}
+
+.google:hover span {
+  background: #dd4b39;
+}
+
+/* General span styles for all social icons */
+ul li a span {
+  position: absolute;
+  transition: transform 0.5s;
+}
+ul li a span:nth-child(1),
+ul li a span:nth-child(3) {
+  width: 100%;
+  height: 3px;
+  background: #404040;
+}
+ul li a span:nth-child(1) {
+  top: 0;
+  left: 0;
+  transform-origin: right;
+}
+ul li a:hover span:nth-child(1) {
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+ul li a span:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+}
+ul li a:hover span:nth-child(3) {
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+ul li a span:nth-child(2),
+ul li a span:nth-child(4) {
+  width: 3px;
+  height: 100%;
+  background: #404040;
+}
+ul li a span:nth-child(2) {
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transform-origin: bottom;
+}
+ul li a:hover span:nth-child(2) {
+  transform: scale(1);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+ul li a span:nth-child(4) {
+  top: 0;
+  right: 0;
+  transform: scale(0);
+  transform-origin: top;
+}
+ul li a:hover span:nth-child(4) {
+  transform: scale(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+
+.outer .social {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #404040;
+  margin: 0 30px;
+  transition: 0.5s;
+}
+
+@media (max-width: 480px) {
+  .outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .outer .social {
+    flex-basis: 20%;
+    margin: 5px;
+  }
+}
+.rights {
+  color: grey;
+  text-align: center;
+  padding-bottom: 5px;
+}

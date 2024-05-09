@@ -1,4 +1,3 @@
-// import React from "react";
 import Cards from "./Cards";
 import "../styles/Card.css";
 
@@ -69,8 +68,8 @@ function Skills() {
   ];
 
   return (
-    <div>
-      <p className="skill-title">Skills:</p>
+    <div className="skills-section">
+      <p className="skill-title">Languages and Frameworks:</p>
       <div className="flex">
         {skillsData.map((skill, index) => (
           <Cards
