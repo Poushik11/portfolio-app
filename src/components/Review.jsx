@@ -20,9 +20,9 @@ function Review() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    console.log(formData);
     axios
-      .post("/api/form", formData) // Updated URL to match the new server route
+      .post("https://portfolio-backend-kigm.onrender.com/api/form", formData)
       .then((response) => {
         console.log(response.data);
       })
