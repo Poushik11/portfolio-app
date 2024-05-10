@@ -10,6 +10,8 @@ function Review() {
     message: "",
   });
 
+  const [isSent, setIsSent] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -25,6 +27,17 @@ function Review() {
       .post("https://portfolio-backend-kigm.onrender.com/api/form", formData)
       .then((response) => {
         console.log(response.data);
+        setIsSent(true); // Set state to true upon successful form submission
+        setFormData({
+          // Clear form data upon successful submission
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+        setTimeout(() => {
+          setIsSent(false); // Hide the popup after 3 seconds
+        }, 3000);
       })
       .catch((error) => {
         console.error(error);
@@ -96,6 +109,13 @@ function Review() {
           </div>
         </div>
       </section>
+
+      {/* Popup message component */}
+      {isSent && (
+        <div className="popup">
+          <p>Message sent successfully!</p>
+        </div>
+      )}
     </div>
   );
 }
