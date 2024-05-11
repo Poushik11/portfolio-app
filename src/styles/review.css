@@ -297,3 +297,8 @@ textarea,
   font-size: 18px;
   color: #333333;
 }
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
