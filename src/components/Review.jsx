@@ -10,6 +10,9 @@ function Review() {
     message: "",
   });
 
+  const [isSent, setIsSent] = useState(false);
+  const [errors, setErrors] = useState({});
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -18,17 +21,60 @@ function Review() {
     });
   };
 
+  const validateForm = () => {
+    let isValid = true;
+    let errors = {};
+
+    if (!formData.name.trim()) {
+      errors.name = "Name is required";
+      isValid = false;
+    }
+
+    if (!formData.email.trim()) {
+      errors.email = "Email is required";
+      isValid = false;
+    } else if (!/^\S+@\S+\.\S+$/.test(formData.email)) {
+      errors.email = "Email is invalid";
+      isValid = false;
+    }
+
+    if (!formData.subject.trim()) {
+      errors.subject = "Subject is required";
+      isValid = false;
+    }
+
+    if (!formData.message.trim()) {
+      errors.message = "Message is required";
+      isValid = false;
+    }
+
+    setErrors(errors);
+    return isValid;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
-    axios
-      .post("https://portfolio-backend-kigm.onrender.com/api/form", formData)
-      .then((response) => {
-        console.log(response.data);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
+
+    if (validateForm()) {
+      setIsSent(true);
+      axios
+        .post("https://portfolio-backend-kigm.onrender.com/api/form", formData)
+        .then((response) => {
+          console.log(response.data);
+          setFormData({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
+          setTimeout(() => {
+            setIsSent(false);
+          }, 3000);
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    }
   };
 
   return (
@@ -52,7 +98,8 @@ function Review() {
                     placeholder="Your Name"
                     value={formData.name}
                     onChange={handleChange}
-                  ></input>
+                  />
+                  {errors.name && <p className="error">{errors.name}</p>}
                 </div>
                 <div className="form-field">
                   <input
@@ -62,7 +109,8 @@ function Review() {
                     placeholder="Your Email"
                     value={formData.email}
                     onChange={handleChange}
-                  ></input>
+                  />
+                  {errors.email && <p className="error">{errors.email}</p>}
                 </div>
                 <div className="form-field">
                   <input
@@ -72,20 +120,25 @@ function Review() {
                     placeholder="Subject"
                     value={formData.subject}
                     onChange={handleChange}
-                  ></input>
+                  />
+                  {errors.subject && <p className="error">{errors.subject}</p>}
                 </div>
                 <div className="form-field">
                   <textarea
                     name="message"
-                    type="text"
                     id="message"
                     placeholder="Your Message"
                     value={formData.message}
                     onChange={handleChange}
-                  ></textarea>
+                  />
+                  {errors.message && <p className="error">{errors.message}</p>}
                 </div>
               </fieldset>
-              <input id="form-btn" type="submit" value="send" />
+              <input
+                id="form-btn"
+                type="submit"
+                value={isSent ? "Email Sent" : "Send"}
+              />
             </form>
           </div>
 
