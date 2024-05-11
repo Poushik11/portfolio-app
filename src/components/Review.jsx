@@ -135,7 +135,7 @@ function Review() {
                 </div>
               </fieldset>
               <input
-                id="form-btn"
+                id={isSent ? "sentEmail" : "form-btn"}
                 type="submit"
                 value={isSent ? "Email Sent" : "Send"}
               />

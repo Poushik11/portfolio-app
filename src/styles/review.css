@@ -302,3 +302,19 @@ textarea,
   font-size: 0.8em;
   margin-top: 5px;
 }
+#sentEmail {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  border: none;
+  color: white;
+  font-size: 0.6rem;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 200%;
+  height: 60px;
+  background-color: green;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
