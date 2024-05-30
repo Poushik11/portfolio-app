@@ -1,6 +1,9 @@
 import "../styles/review.css";
 import { useState } from "react";
 import axios from "axios";
+import { SiLeetcode } from "react-icons/si";
+import { SiCodechef } from "react-icons/si";
+import { SiGeeksforgeeks } from "react-icons/si";
 
 function Review() {
   const [formData, setFormData] = useState({
@@ -143,9 +146,19 @@ function Review() {
           </div>
 
           <div className="contact-info">
-            <a id="logo5" href="#" className="effect5"></a>
-            <a id="logo5" href="#" className="effect5"></a>
-            <a id="logo5" href="#" className="effect5"></a>
+            <a
+              id="logo5"
+              href="https://leetcode.com/u/poushik11/"
+              className="effect5"
+            >
+              <SiLeetcode />
+            </a>
+            <a id="logo5" href="#" className="effect5">
+              <SiCodechef />
+            </a>
+            <a id="logo5" href="#" className="effect5">
+              <SiGeeksforgeeks />
+            </a>
           </div>
         </div>
       </section>

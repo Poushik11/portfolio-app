@@ -1,5 +1,6 @@
 import Cards from "./Cards";
 import "../styles/Card.css";
+// import { IoLogoJavascript } from "react-icons/io5";
 
 function Skills() {
   const skillsData = [
