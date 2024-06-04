@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "../styles/Info.css";
 import { Link } from "react-scroll";
 
@@ -28,14 +29,125 @@ function About() {
 
       <section id="about" className="main-section">
         <div className="wrapper">
-          <p className="about__intro">
-            Hi, Im Poushik Yelne, an aspiring web developer with an interest in
-            UX/UI design. <br />
-            Im pursuing the degree in computer science . <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos,
-            officia nulla non dignissimos cum praesentium soluta consectetur
-            eligendi odit necessitatibus! Sapiente illum nemo aut dolorem?
-            Repellendus quo reiciendis vel?
+          <p
+            className="about__intro"
+            style={{
+              marginTop: "50px",
+              fontFamily: "Great Vibes, cursive",
+            }}
+          >
+            <strong
+              style={{
+                fontSize: "16px",
+                color: "#00698f",
+                fontFamily: "Great Vibes, cursive",
+              }}
+            >
+              Hi, I'm Poushik Yelne, an aspiring Full stack Web developer with a
+              passion for UI/UX design. I'm currently pursuing a degree in
+              Computer Science,
+              {/* also diving deep into the world of algorithms */}
+              {/* and data structures. */}
+            </strong>
+            <div
+              style={{
+                marginTop: "10px",
+                fontSize: "18px",
+                // color: "#00698f",
+                fontFamily: "Great Vibes, cursive",
+              }}
+            >
+              What I Can Do
+            </div>
+            <ul
+              style={{
+                listStyle: "none",
+                padding: "0",
+                margin: "0",
+              }}
+            >
+              <li
+                style={{
+                  padding: "10px",
+                  border: "1px solid #ccc",
+                  borderRadius: "10px",
+                  margin: "5px",
+                }}
+              >
+                <strong
+                  style={{
+                    fontSize: "16px",
+                    color: "#00698f",
+                    fontFamily: "Great Vibes, cursive",
+                  }}
+                >
+                  Full-Stack Developer: From front-end frameworks that
+                  "simplify" development to back-end systems that "scale" (until
+                  they don't).
+                </strong>
+              </li>
+              <li
+                style={{
+                  padding: "10px",
+                  border: "1px solid #ccc",
+                  borderRadius: "10px",
+                  margin: "5px",
+                }}
+              >
+                <strong
+                  style={{
+                    fontSize: "16px",
+                    color: "#00698f",
+                    fontFamily: "Great Vibes, cursive",
+                  }}
+                >
+                  Competitive Coding: Solving problems for fun, and sometimes
+                  creating new ones.
+                </strong>
+              </li>
+              <li
+                style={{
+                  padding: "10px",
+                  border: "1px solid #ccc",
+                  borderRadius: "10px",
+                  margin: "5px",
+                }}
+              >
+                <strong
+                  style={{
+                    fontSize: "16px",
+                    color: "#00698f",
+                    fontFamily: "Great Vibes, cursive",
+                  }}
+                >
+                  Open Source Contributions: Fixing bugs, adding features, and
+                  debating the best indentation styles.
+                </strong>
+              </li>
+              <li
+                style={{
+                  padding: "10px",
+                  border: "1px solid #ccc",
+                  borderRadius: "10px",
+                  margin: "5px",
+                }}
+              >
+                <strong
+                  style={{
+                    fontSize: "16px",
+                    color: "#00698f",
+                    fontFamily: "Great Vibes, cursive",
+                  }}
+                >
+                  Eager Learner: Always up for a challenge, whether it's a new
+                  JavaScript library or a programming language.
+                </strong>
+              </li>
+            </ul>
+            I love being helpful, whether it's debugging code or building new
+            features. I'm passionate about creating impactful solutions and
+            always ready to learn something new. If you're looking for a
+            dedicated developer with a sense of humor, let's connect!
           </p>
           <Link
             activeClass="active"
