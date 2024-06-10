@@ -41,8 +41,8 @@ function Project() {
         "HomeJunction is a modern web app built with React and Firebase, designed for selling or renting properties. Leveraging geolocation APIs, it helps users find nearby listings with ease. Users can contact landlords directly, as well as update, delete, and manage property details seamlessly.",
       image:
         "https://private-user-images.githubusercontent.com/115363626/338192749-aaf61e57-51cc-4df4-be43-53400f113220.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgwMjQ2MzMsIm5iZiI6MTcxODAyNDMzMywicGF0aCI6Ii8xMTUzNjM2MjYvMzM4MTkyNzQ5LWFhZjYxZTU3LTUxY2MtNGRmNC1iZTQzLTUzNDAwZjExMzIyMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMFQxMjU4NTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ODhlYzBlNmU5Y2I4OTkzMGE4ZTdhNzk0OThiYzUwZWVlZDJiZjVkMjQ2ODU3YmEwZjE5ZWQ4MDQzN2RjYzQ5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.RoPjk_bz6w2cftHd9ngWSYWO_7AArnEr-05b7tp8qow",
-      link: "ddkds",
-      git: "google.com",
+      link: "https://home-junction.netlify.app/",
+      git: "https://github.com/Poushik11/HomeJunction",
     },
     {
       name: "Expense Tracker",
