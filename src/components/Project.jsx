@@ -55,14 +55,14 @@ function Project() {
       git: "google.com",
     },
     {
-      name: "Movie Watch",
-      info: "lorem ipsum",
+      name: "Publication Management",
+      info: " NextJS,Context,Nodemailer,Tailwind ",
       infor:
-        "Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye bread baked from our secret recipeto the cave-aged Swiss cheese, right down to the pickle. Theonly thing we didn't make on the premises is the toothpick (but we're looking into how to do that).Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye bread baked from our secret recipeto the cave-aged Swiss cheese, right down to the pickle. Theonly thing we didn't make on the premises is the toothpick (but we're looking into how to do that).",
+        "This project proposes a user-friendly software solution that streamlines data entry, organization, and simplifies reporting by allowing selection of required columns. By providing role-based access and customizable reports, the system empowers faculty and administrators to efficiently manage publication data, ultimately showcasing the college's research achievements. element of this extraordinary sandwich is handcrafted in our kitchens, from the rye bread baked from our secret recipeto the cave-aged Swiss cheese, right down to the pickle. Theonly thing we didn't make on the premises is the toothpick (but we're looking into how to do that).Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye bread baked from our secret recipeto the cave-aged Swiss cheese, right down to the pickle. Theonly thing we didn't make on the premises is the toothpick (but we're looking into how to do that).",
       image:
-        "https://beautifulpixels.com/wp-content/uploads/2017/06/watchlist-ss-12.png",
-      link: "ddkds",
-      git: "google.com",
+        "https://private-user-images.githubusercontent.com/115363626/338200883-a47e4698-01e3-46dd-9e27-dba5ddd2783c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgwMjU2MTcsIm5iZiI6MTcxODAyNTMxNywicGF0aCI6Ii8xMTUzNjM2MjYvMzM4MjAwODgzLWE0N2U0Njk4LTAxZTMtNDZkZC05ZTI3LWRiYTVkZGQyNzgzYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMFQxMzE1MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NjEzMzkyNTlhZjkzMTNlZWM4ZjU4NGE0ZDNjZjViYzkwMDI0MDQwYzI4OTUwMWY2ZTc3NDNkYzhkMjhkODM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.FptaspSYtyqBVvsSoQ7JkyUTJ0BbWNEW9wAabUOStvk",
+      link: "https://publication-management.vercel.app/",
+      git: "/",
     },
   ];
   return (
