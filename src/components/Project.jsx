@@ -5,14 +5,14 @@ import "../styles/Project.css";
 function Project() {
   const ProjectsData = [
     {
-      name: "Expand Cards",
-      info: "lorem ipsum",
+      name: "Trend Feed",
+      info: "Context,Redux,Api",
       infor:
-        "Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye bread baked from our secret recipeto the cave-aged Swiss cheese, right down to the pickle. Theonly thing we didn't make on the premises is the toothpick (but we're looking into how to do that).",
+        "TrendFeed is a dynamic news platform built using React and Context API, leveraging the NewsAPI for real-time updates. Users can browse and categorize news articles across various topics, as well as switch between multiple languages for a personalized reading experience. TrendFeed ensures a seamless and responsive interface, providing the latest news tailored to user preferences.",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYf767AtEqCxToSV_4QdqGqq4MEudroV6SKA&usqp=CAU",
-      link: "ddkds",
-      git: "google.com",
+        "https://private-user-images.githubusercontent.com/115363626/333496910-61ca1a67-8306-4cc0-917e-4e6c2831ab76.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgwMjQ1MzAsIm5iZiI6MTcxODAyNDIzMCwicGF0aCI6Ii8xMTUzNjM2MjYvMzMzNDk2OTEwLTYxY2ExYTY3LTgzMDYtNGNjMC05MTdlLTRlNmMyODMxYWI3Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMFQxMjU3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZTg5Y2EzZDJjMTVkODBlN2Q0ZTY5NDk2MmJhNjUzMTNlYjc4ODYwODhhZDYxNzJiOTA5ZjQ2ZjVlYTI2MDNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.--4LswoEMAg1k5XlBhZYjZFYG1zeaTWO8ojbyZpTPSM",
+      link: "https://github.com/Poushik11/TrendFeed",
+      git: "https://github.com/Poushik11/TrendFeed",
     },
     {
       name: "Drawing App",
@@ -35,12 +35,12 @@ function Project() {
       git: "https://github.com/Poushik11/To-Do-React",
     },
     {
-      name: "PassWord Generator",
-      info: "HTML,JS,CSS",
+      name: "Home Junction",
+      info: "Firebase, React , Slick",
       infor:
-        "Welcome to our Password Generator Project! In this very Basic web application, with the help of HTML, CSS, and JavaScript to provide you with a convenient tool for generating strong and secure passwords. Whether you need a password for your email, social media, or any other online account, our password generator has got you covered.",
+        "HomeJunction is a modern web app built with React and Firebase, designed for selling or renting properties. Leveraging geolocation APIs, it helps users find nearby listings with ease. Users can contact landlords directly, as well as update, delete, and manage property details seamlessly.",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpwQVbKIP3LNdMU0ut4tbfedLKmX-7ofnUoQ&usqp=CAU",
+        "https://private-user-images.githubusercontent.com/115363626/338192749-aaf61e57-51cc-4df4-be43-53400f113220.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgwMjQ2MzMsIm5iZiI6MTcxODAyNDMzMywicGF0aCI6Ii8xMTUzNjM2MjYvMzM4MTkyNzQ5LWFhZjYxZTU3LTUxY2MtNGRmNC1iZTQzLTUzNDAwZjExMzIyMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMFQxMjU4NTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ODhlYzBlNmU5Y2I4OTkzMGE4ZTdhNzk0OThiYzUwZWVlZDJiZjVkMjQ2ODU3YmEwZjE5ZWQ4MDQzN2RjYzQ5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.RoPjk_bz6w2cftHd9ngWSYWO_7AArnEr-05b7tp8qow",
       link: "ddkds",
       git: "google.com",
     },
