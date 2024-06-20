@@ -35,7 +35,7 @@
   .main-name,
   .sub-info {
     display: none;
-    font-family: "Cedarville Cursive", cursive;
+    /* font-family: "Cedarville Cursive", cursive; */
   }
 }
 .transW {
@@ -47,7 +47,7 @@
   position: absolute;
   color: rgb(240, 162, 162);
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
-  font-family: "Cedarville Cursive", cursive;
+  /* font-family: "Cedarville Cursive", cursive; */
 
   padding: 10px;
   top: 20%;
@@ -60,7 +60,7 @@
   top: 94%;
   right: 1%;
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
-  font-family: "Cedarville Cursive", cursive;
+  /* font-family: "Cedarville Cursive", cursive; */
 }
 
 @media all and (max-width: 500px) {

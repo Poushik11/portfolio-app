@@ -1,10 +1,8 @@
 import ProjectC from "./ProjectC";
-// import Reveal from "./Reveal";
+
 import "../styles/Project.css";
-// import { useNavigate } from "react-router-dom";
 
 function Project() {
-  // const navigate = useNavigate();
   const ProjectsData = [
     {
       name: "Trend Feed",
@@ -84,11 +82,6 @@ function Project() {
           />
         ))}
       </div>
-      {/* <Reveal>
-        <button onClick={() => navigate("/projects")} className="custom-button">
-          View More
-        </button>
-      </Reveal> */}
     </div>
   );
 }

@@ -5,6 +5,26 @@
   margin: 0 auto;
   justify-content: center;
 }
+/* Custom button styles */
+
+.custom-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 12px 32px; /* Fallback for padding */
+  border-radius: 9999px; /* Fully rounded corners */
+  color: #f8fafc; /* Slate-50 */
+  border: 2px solid #0f172a; /* Slate-950 */
+  background-color: #0f172a; /* Slate-950 */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.custom-button:hover {
+  color: #0f172a; /* Slate-950 */
+  background-color: #f8fafc; /* Slate-50 */
+  transform: translateY(-0.25rem); /* Move up by 1 unit */
+}
 
 .Project-title {
   color: #c89b3f;
