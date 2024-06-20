@@ -6,25 +6,25 @@ function About() {
   return (
     <div className="aboutinfo">
       <div className="transW">
-        {/* <p className="trans">ABOUT</p> */}
+        <p className="trans">ABOUT</p>
 
-        <div className="aboutsec">
+        {/* <div className="aboutsec">
           <div id="word">
-            Dive into
+            Hi I am
             <div id="flip">
               <div>
-                <div>Exciting Project</div>
+                <div>Fronted</div>
               </div>
               <div>
-                <div>Our Story</div>
+                <div>Fullstack</div>
               </div>
               <div>
                 <div>The PortFolio</div>
               </div>
             </div>
-            and Explore The Story!
+            Developer
           </div>
-        </div>
+        </div> */}
       </div>
 
       <section id="about" className="main-section">
@@ -33,14 +33,14 @@ function About() {
             className="about__intro"
             style={{
               marginTop: "50px",
-              fontFamily: "Great Vibes, cursive",
+              // fontFamily: "Great Vibes, cursive",
             }}
           >
             <strong
               style={{
                 fontSize: "16px",
                 color: "#00698f",
-                fontFamily: "Great Vibes, cursive",
+                // fontFamily: "Great Vibes, cursive",
               }}
             >
               Hi, I'm Poushik Yelne, an aspiring Full stack Web developer with a
@@ -54,7 +54,7 @@ function About() {
                 marginTop: "10px",
                 fontSize: "18px",
                 // color: "#00698f",
-                fontFamily: "Great Vibes, cursive",
+                // fontFamily: "Great Vibes, cursive",
               }}
             >
               What I Can Do
@@ -78,7 +78,7 @@ function About() {
                   style={{
                     fontSize: "16px",
                     color: "#00698f",
-                    fontFamily: "Great Vibes, cursive",
+                    // fontFamily: "Great Vibes, cursive",
                   }}
                 >
                   Full-Stack Developer: From front-end frameworks that
@@ -98,7 +98,7 @@ function About() {
                   style={{
                     fontSize: "16px",
                     color: "#00698f",
-                    fontFamily: "Great Vibes, cursive",
+                    // fontFamily: "Great Vibes, cursive",
                   }}
                 >
                   Competitive Coding: Solving problems for fun, and sometimes
@@ -117,7 +117,7 @@ function About() {
                   style={{
                     fontSize: "16px",
                     color: "#00698f",
-                    fontFamily: "Great Vibes, cursive",
+                    // fontFamily: "Great Vibes, cursive",
                   }}
                 >
                   Open Source Contributions: Fixing bugs, adding features, and
@@ -136,7 +136,7 @@ function About() {
                   style={{
                     fontSize: "16px",
                     color: "#00698f",
-                    fontFamily: "Great Vibes, cursive",
+                    // fontFamily: "Great Vibes, cursive",
                   }}
                 >
                   Eager Learner: Always up for a challenge, whether it's a new
@@ -151,7 +151,7 @@ function About() {
           </p>
           <Link
             activeClass="active"
-            to="skills-section"
+            to="skills-container"
             spy={true}
             smooth={true}
             offset={-50}
@@ -159,7 +159,7 @@ function About() {
           >
             <a className="arrow-wrap" href="#content">
               <span className="arrow"></span>
-              {/*<span className="hint">scroll</span>*/}
+              {/* <span className="hint">scroll</span> */}
             </a>
           </Link>
         </div>

@@ -1,88 +1,94 @@
-import Cards from "./Cards";
-import "../styles/Card.css";
-// import { IoLogoJavascript } from "react-icons/io5";
+// import React from "react";
+import Reveal from "./Reveal";
+import "./skillv.css"; // Import the CSS file
 
-function Skills() {
-  const skillsData = [
-    {
-      name: "CSS",
-      status: "Completed",
-      image: "https://cdn-icons-png.flaticon.com/128/919/919826.png",
-    },
-    {
-      name: "HTML",
-      status: "Completed",
-      image: "https://cdn-icons-png.flaticon.com/128/5968/5968267.png",
-    },
-    {
-      name: "JAVA",
-      status: "Ongoing",
-      image: "https://cdn-icons-png.flaticon.com/128/919/919854.png",
-    },
-    {
-      name: "JAVASCRIPT",
-      status: "Completed",
-      image: "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
-    },
-    {
-      name: "NodeJS",
-      status: "Completed",
-      image: "https://cdn-icons-png.flaticon.com/128/919/919825.png",
-    },
-    {
-      name: "ExpressJs",
-      status: "Ongoing",
-      image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-express-8-1175029.png?f=avif&w=512",
-    },
-    {
-      name: "React",
-      status: "Ongoing",
-      image: "https://img.icons8.com/?size=2x&id=NfbyHexzVEDk&format=png",
-    },
-    {
-      name: "TailwindCss",
-      status: "Ongoing",
-      image: "https://img.icons8.com/?size=2x&id=WoopfRcDj3RF&format=png",
-    },
-    {
-      name: "MongoDB",
-      status: "Ongoing",
-      image: "https://img.icons8.com/?size=2x&id=74402&format=png",
-    },
-    {
-      name: "Python",
-      status: "Moderate",
-      image: "https://cdn-icons-png.flaticon.com/128/3098/3098090.png",
-    },
-    {
-      name: "Cloud",
-      status: "Completed",
-      image: "https://cdn-icons-png.flaticon.com/128/3211/3211343.png",
-    },
-    {
-      name: "Git",
-      status: "Completed",
-      image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-git-18-1175219.png?f=avif&w=512",
-    },
-  ];
-
+const Skills = () => {
   return (
-    <div className="skills-section">
-      <p className="skill-title">Languages and Frameworks:</p>
-      <div className="flex">
-        {skillsData.map((skill, index) => (
-          <Cards
-            key={index}
-            name={skill.name}
-            status={skill.status}
-            image={skill.image}
-          />
-        ))}
+    <div id="skills" className="skills-container ">
+      <div className="section-header text-center">
+        <Reveal>
+          <h1 className="title">Skills</h1>
+        </Reveal>
+      </div>
+
+      <div className="section mb-10">
+        <div className="section-title">
+          <h1>Languages and Frameworks</h1>
+        </div>
+        <div className="grid">
+          {[
+            { className: "devicon-javascript-plain", name: "JavaScript" },
+            { className: "devicon-react-original", name: "ReactJS" },
+            { className: "devicon-nodejs-plain", name: "NodeJS" },
+            { className: "devicon-express-original", name: "Express" },
+            { className: "devicon-tailwindcss-plain", name: "TailwindCSS" },
+            { className: "devicon-cplusplus-plain", name: "C/C++" },
+            { className: "devicon-go-original-wordmark", name: "Golang" },
+            { className: "devicon-java-plain", name: "Java" },
+            { className: "devicon-python-plain", name: "Python" },
+            { className: "devicon-nextjs-original-wordmark", name: "NextJS" },
+            { className: "devicon-redux-original", name: "Redux" },
+            { className: "devicon-html5-plain", name: "HTML5" },
+            { className: "devicon-css3-plain", name: "CSS3" },
+            { className: "devicon-bootstrap-plain", name: "Bootstrap" },
+          ].map((item, index) => (
+            <Reveal key={index}>
+              <div className="icons">
+                <i className={`${item.className} icon`}></i>
+                <p>{item.name}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+
+      <div className="section mb-10">
+        <div className="section-title">
+          <h1>Databases</h1>
+        </div>
+        <div className="grid">
+          {[
+            { className: "devicon-firebase-plain", name: "Firebase" },
+            { className: "devicon-mongodb-plain", name: "MongoDB" },
+            { className: "devicon-mysql-plain", name: "MySQL" },
+            { className: "devicon-redis-plain", name: "Redis" },
+          ].map((item, index) => (
+            <Reveal key={index}>
+              <div className="icons">
+                <i className={`${item.className} icon`}></i>
+                <p>{item.name}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+
+      <div className="section mb-10">
+        <div className="section-title">
+          <h1>Others</h1>
+        </div>
+        <div className="grid">
+          {[
+            { className: "devicon-vscode-plain", name: "DSA" },
+            { className: "devicon-git-plain", name: "Git/GitHub" },
+            { className: "devicon-vscode-plain", name: "VS Code" },
+            { className: "devicon-docker-plain", name: "Docker" },
+            {
+              className: "devicon-amazonwebservices-plain-wordmark",
+              name: "AWS",
+            },
+          ].map((item, index) => (
+            <Reveal key={index}>
+              <div className="icons">
+                <i className={`${item.className} icon`}></i>
+                <p>{item.name}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default Skills;
