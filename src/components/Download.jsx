@@ -3,7 +3,7 @@ import "../styles/Task.css";
 const Download = () => {
   const onButtonClick = () => {
     const pdfUrl =
-      "https://drive.usercontent.google.com/download?id=1vIJIa9BV0C9aLuIMOy_CgqAF25UCPI9k&export=download";
+      "https://drive.usercontent.google.com/download?id=1gBURVMcf-jkShGBbIAtBAgKgW9lgdmuL&export=downloads";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Resume_.pdf";
